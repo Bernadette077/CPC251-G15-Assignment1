@@ -2,7 +2,7 @@
 
 ## 📊 Project Overview
 
-This project focuses on implementing neural network using low-level TensorFlow programming (without Keras) and training it via the gradient descent algorithm. 
+This project focuses on implementing neural network using low-level TensorFlow programming (without Keras) and training it via the gradient descent algorithm. We are using the `classification_dataset.csv` for this project.
 
 The primary objective is to learn the fundamentals of TensorFlow operations and core concepts in machine learning. 
 
@@ -35,4 +35,22 @@ The primary objective is to learn the fundamentals of TensorFlow operations and 
   
 ---
 
-##
+## 🗂️ Project Process 
+
+### 1. **Importing Libraries and Load the dataset**
+
+   Import libraries for data handling, visualization and machine learning. 
+   - `TensorFlow`: Used for building and training deep neural network machine learning model
+   - `NumPy`: Used for numerical computing for multi-dimentisonal array
+   - `Pandas`: Data manipulation and analysis of tabular data
+   - `Matplotlib`: Data visualization library for creating graphs, chart and plots
+   - `Scikit-Learn`: Use `train_test_split` for data splitting and `classification_report` for classification metrics (precision, recall, f1-score)."
+   
+   Fixed random seed is set
+   - Ensure sequence of random number generated is consistent
+   - Making experiment result reproducible, allowing you to get the same results.
+
+
+### 2. ****
+   
+   
